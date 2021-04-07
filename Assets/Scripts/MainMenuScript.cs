@@ -11,37 +11,75 @@ public class MainMenuScript : MonoBehaviour
     public string Credits;
 
     public AudioSource soundSource;
-    public AudioClip menu;
+    public AudioClip menuClick;
+
+    public float clickTimer = 0.5f;
 
     public void StartPressed()
     {
-        SceneManager.LoadScene(startSceneName);
+        soundSource.PlayOneShot(menuClick);
+        StartCoroutine(Wait(clickTimer));
+       
       
     
     
     }
     public void MenuPressed()
     {
-        soundSource.PlayOneShot(menu);
-        SceneManager.LoadScene(Menu);
+        soundSource.PlayOneShot(menuClick);
+        StartCoroutine(Wait2(clickTimer));
+        
 
 
 
     }
     public void CreditsPressed()
     {
-        SceneManager.LoadScene(Credits);
+
+        soundSource.PlayOneShot(menuClick);
+        StartCoroutine(Wait3(clickTimer));
+        
 
 
 
     }
     public void CloseGame()
     {
-        Application.Quit();
+
+        soundSource.PlayOneShot(menuClick);
+        StartCoroutine(Wait4(clickTimer));
+        
 
 
     }
 
-    
-    
+    IEnumerator Wait(float duration)
+    {
+
+        yield return new WaitForSeconds(duration);   //Wait
+        SceneManager.LoadScene(startSceneName);
+    }
+
+    IEnumerator Wait2(float duration)
+    {
+
+        yield return new WaitForSeconds(duration);   //Wait
+        SceneManager.LoadScene(Menu);
+    }
+
+
+    IEnumerator Wait3(float duration)
+    {
+
+        yield return new WaitForSeconds(duration);   //Wait
+        SceneManager.LoadScene(Credits);
+    }
+
+    IEnumerator Wait4(float duration)
+    {
+
+        yield return new WaitForSeconds(duration);   //Wait
+        Application.Quit();
+        
+    }
 }
