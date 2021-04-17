@@ -22,7 +22,7 @@ public class GunScript : MonoBehaviour
         }
 
 
-        else if (Input.GetButtonDown("Fire2") && coolTimer <= 0)
+        else if (Input.GetButtonDown("Fire1") && coolTimer <= 0)
         {
             Shoot();
             coolTimer = cooldownTime;
