@@ -16,8 +16,12 @@ public class EnemyScript : EntityScript
     //public GameObject particle;
     public string hurtTag;
 
-    [HideInInspector]
-    //public EnemySpawn spawnedBy;
+    [Header("Gun Script Attributes")]
+    public GameObject[] projectiles;
+    public ParticleSystem MuzzleFlash;
+    public int projectileSelected = 0;
+    public GameObject muzzle;
+    public float cooldownTime;
 
     new private void Start()
     {
