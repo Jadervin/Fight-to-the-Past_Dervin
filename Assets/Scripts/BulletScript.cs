@@ -9,7 +9,7 @@ public class BulletScript : HitBoxScript
     public float despawnTime;
     
     float timeAlive = 0;
-    public GameObject collisionEffect;
+    //public GameObject collisionEffect;
 
 
 
@@ -32,12 +32,32 @@ public class BulletScript : HitBoxScript
 
     private void OnTriggerEnter(Collider other)
     {
-        
-            
-            Destroy(other.gameObject);
-            Instantiate(collisionEffect, transform.position, transform.rotation);
 
+        if (other.gameObject.tag == ("Door"))
+        {
+            Destroy(other.gameObject);
+            //Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            //soundSource.PlayOneShot(kill);
+            Destroy(this.gameObject);
+        }
+
+        /*
+        Destroy(other.gameObject);
+            Instantiate(collisionEffect, transform.position, transform.rotation);
+        */
             
         
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == ("Door"))
+        {
+            Destroy(collision.gameObject);
+            //Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            //soundSource.PlayOneShot(kill);
+            Destroy(this.gameObject);
+        }
+
     }
 }

@@ -143,10 +143,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5869189faeeca0c41b1f7d72753ff99d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 1
   speed: 10
   despawnTime: 2
-  collisionEffect: {fileID: 0}
 --- !u!135 &8329480542674148732
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -155,7 +154,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4419616341875294127}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
