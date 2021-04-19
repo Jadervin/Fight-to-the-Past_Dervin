@@ -7,13 +7,10 @@ public class EnemyScript : EntityScript
 {
 
     public NavMeshAgent pathfinding;
-    //public GameObject muzzle;
-    //public GameObject projectile;
     public GameObject eyes;
     public float visionRange;
     public bool pursuing = false;
     private GameObject target;
-    //public GameObject particle;
     public string hurtTag;
 
     [Header("Gun Script Attributes")]
@@ -22,17 +19,18 @@ public class EnemyScript : EntityScript
     public int projectileSelected = 0;
     public GameObject muzzle;
     public float cooldownTime;
+    protected float coolTimer = 0;
 
     new private void Start()
     {
         base.Start();
-        pathfinding.speed = speed;
+        //pathfinding.speed = speed;
 
     }
    
 
     // Update is called once per frame
-    void Update()
+    protected void Update()
     {
 
         if(!pursuing)
@@ -46,11 +44,12 @@ public class EnemyScript : EntityScript
                 if(Physics.Raycast(ray, out hit) && hit.transform.tag=="Player")
                 {
 
-                     Debug.Log("I see something");
-                     pursuing = true;
-                     target = hit.transform.gameObject;
+                    Debug.Log("I see something");
+                    pursuing = true;
+                    Shoot();
+                //target = hit.transform.gameObject;
 
-                }
+            }
                 
         }
         else
@@ -59,7 +58,7 @@ public class EnemyScript : EntityScript
             {
                 pursuing = false;
             }
-            pathfinding.SetDestination(target.transform.position);
+            //pathfinding.SetDestination(target.transform.position);
 
 
         }
@@ -80,5 +79,15 @@ public class EnemyScript : EntityScript
     }
 
 
-    
+    public void Shoot()
+    {
+        GameObject temp;
+        //MuzzleFlash.Play();
+        temp = Instantiate(projectiles[projectileSelected], muzzle.transform.position,
+           muzzle.transform.rotation);
+
+    }
+
+
+
 }

@@ -7,7 +7,7 @@ public class EntityScript : MonoBehaviour
     public int MaxHealth;
     public int HP;
 
-    public float speed;
+    //public float speed;
     public AudioSource hitSoundSource;
     public AudioClip hitSound;
 
