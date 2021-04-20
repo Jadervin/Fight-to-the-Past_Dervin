@@ -9,7 +9,7 @@ public class EnemyScript : EntityScript
     public NavMeshAgent pathfinding;
     public GameObject eyes;
     public float visionRange;
-    public bool pursuing = false;
+    public bool found = false;
     private GameObject target;
     public string hurtTag;
 
@@ -33,7 +33,7 @@ public class EnemyScript : EntityScript
     protected void Update()
     {
 
-        if(!pursuing)
+        if(!found)
         {
                 Ray ray = new Ray(eyes.transform.position, eyes.transform.forward * visionRange);
 
@@ -45,7 +45,7 @@ public class EnemyScript : EntityScript
                 {
 
                     Debug.Log("I see something");
-                    pursuing = true;
+                    found = true;
                     Shoot();
                 //target = hit.transform.gameObject;
 
@@ -56,7 +56,7 @@ public class EnemyScript : EntityScript
         {
             if(target==null)
             {
-                pursuing = false;
+                found = false;
             }
             //pathfinding.SetDestination(target.transform.position);
 
@@ -69,7 +69,7 @@ public class EnemyScript : EntityScript
     {
         if (collision.gameObject.tag=="Barrier")
         {
-            pursuing = false;
+            found = false;
             pathfinding.Stop();
         }
     }

@@ -19,7 +19,7 @@ public class EnemyScriptAnimated : EnemyScript
     new protected void Update()
     {
 
-        if (!pursuing)
+        if (!found)
         {
             Ray ray = new Ray(eyes.transform.position, eyes.transform.forward * visionRange);
 
@@ -31,24 +31,62 @@ public class EnemyScriptAnimated : EnemyScript
             {
 
                 Debug.Log("I see something");
-                pursuing = true;
-                Shoot();
-                animator.SetTrigger("Found");
-                //target = hit.transform.gameObject;
+                found = true;
+                if (coolTimer <= 0)
+                {
+                    Shoot();
+                    animator.SetTrigger("Found");
+                    coolTimer = cooldownTime;
+                }
+
+                //animator.SetTrigger("Found");
+                target = hit.transform.gameObject;
 
             }
 
         }
         else
         {
+            this.transform.LookAt(target.transform, Vector3.up);
+
+            RaycastHit hit;
+
+            Ray ray = new Ray(eyes.transform.position, eyes.transform.forward * visionRange);
+            Debug.DrawRay(ray.origin, ray.direction * visionRange, Color.red);
+
+            if (Physics.Raycast(ray, out hit) && hit.transform.tag == "Player")
+            {
+
+                Debug.Log("I see something");
+                found = true;
+
+                if (coolTimer <= 0)
+                {
+                    Shoot();
+                    animator.SetTrigger("Found");
+                    coolTimer = cooldownTime;
+                }
+
+                //animator.SetTrigger("Found");
+                //target = hit.transform.gameObject;
+
+            }
+
             if (target == null)
             {
-                pursuing = false;
+                found = false;
             }
             //pathfinding.SetDestination(target.transform.position);
 
 
         }
+
+        if (coolTimer > 0)
+        {
+            coolTimer -= Time.deltaTime;
+        }
+
+        
     }
 
 }

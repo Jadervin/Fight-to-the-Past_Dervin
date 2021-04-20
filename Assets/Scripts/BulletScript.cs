@@ -41,10 +41,10 @@ public class BulletScript : HitBoxScript
             Destroy(this.gameObject);
         }
 
-        /*
-        Destroy(other.gameObject);
-            Instantiate(collisionEffect, transform.position, transform.rotation);
-        */
+        
+        Destroy(this.gameObject);
+            //Instantiate(collisionEffect, transform.position, transform.rotation);
+        
             
         
     }
