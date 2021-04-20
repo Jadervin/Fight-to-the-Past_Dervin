@@ -8,6 +8,8 @@ public class EnemyScriptAnimated : EnemyScript
     public Animator animator;
     public string animatorTriggerName;
     private GameObject target;
+    public float ArmTime;
+
 
     new void Start()
     {
@@ -23,7 +25,7 @@ public class EnemyScriptAnimated : EnemyScript
         {
             Ray ray = new Ray(eyes.transform.position, eyes.transform.forward * visionRange);
 
-            Debug.DrawRay(ray.origin, ray.direction * visionRange, Color.red);
+            Debug.DrawRay(ray.origin, ray.direction.normalized * visionRange, Color.red);
 
             RaycastHit hit;
 
@@ -34,8 +36,8 @@ public class EnemyScriptAnimated : EnemyScript
                 found = true;
                 if (coolTimer <= 0)
                 {
-                    Shoot();
-                    animator.SetTrigger("Found");
+                    StartCoroutine(Wait(ArmTime));
+                    animator.SetBool("Shoot", true);
                     coolTimer = cooldownTime;
                 }
 
@@ -52,18 +54,18 @@ public class EnemyScriptAnimated : EnemyScript
             RaycastHit hit;
 
             Ray ray = new Ray(eyes.transform.position, eyes.transform.forward * visionRange);
-            Debug.DrawRay(ray.origin, ray.direction * visionRange, Color.red);
+            Debug.DrawRay(ray.origin, ray.direction.normalized * visionRange, Color.red);
 
-            if (Physics.Raycast(ray, out hit) && hit.transform.tag == "Player")
+            if (Physics.Raycast(ray, out hit, visionRange) && hit.transform.tag == "Player")
             {
 
-                Debug.Log("I see something");
+                Debug.Log("I see something in my face at " + Vector3.Distance(this.transform.position, hit.point));
                 found = true;
 
                 if (coolTimer <= 0)
                 {
-                    Shoot();
-                    animator.SetTrigger("Found");
+                    StartCoroutine(Wait(ArmTime));
+                    animator.SetBool("Shoot", true);
                     coolTimer = cooldownTime;
                 }
 
@@ -71,10 +73,15 @@ public class EnemyScriptAnimated : EnemyScript
                 //target = hit.transform.gameObject;
 
             }
+            else
+            {
+                animator.SetBool("Shoot", false);
+            }
 
             if (target == null)
             {
                 found = false;
+
             }
             //pathfinding.SetDestination(target.transform.position);
 
@@ -88,5 +95,14 @@ public class EnemyScriptAnimated : EnemyScript
 
         
     }
+
+    IEnumerator Wait(float duration)
+    {
+        yield return new WaitForSeconds(duration);   //Wait
+        Shoot();
+        
+        //SceneManager.LoadScene(youLose);
+    }
+
 
 }

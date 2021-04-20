@@ -64,7 +64,7 @@ public class GunScript : MonoBehaviour
     public void Shoot()
     {
         GameObject temp;
-        //MuzzleFlash.Play();
+        Instantiate(MuzzleFlash, muzzle.transform.position, Quaternion.identity);
         temp = Instantiate(projectiles[projectileSelected], muzzle.transform.position, 
            muzzle.transform.rotation);
 

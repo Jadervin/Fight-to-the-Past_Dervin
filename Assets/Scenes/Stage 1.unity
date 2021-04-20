@@ -1010,6 +1010,7 @@ MonoBehaviour:
   cooldownTime: 3
   animator: {fileID: 485078823}
   animatorTriggerName: Found
+  ArmTime: 0.5
 --- !u!65 &158525161
 BoxCollider:
   m_ObjectHideFlags: 0
