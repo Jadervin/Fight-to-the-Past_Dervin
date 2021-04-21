@@ -96,6 +96,28 @@ public class EnemyScriptAnimated : EnemyScript
         
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+
+        HitBoxScript hit;
+
+        if (other.TryGetComponent<HitBoxScript>(out hit))
+        {
+
+            Damage((uint)hit.damage);
+            //hitSoundSource.PlayOneShot(hitSound);
+
+            if (HP <= 0)
+            {
+                Destroy(this.gameObject);
+
+            }
+
+
+
+        }
+
+    }
     IEnumerator Wait(float duration)
     {
         yield return new WaitForSeconds(duration);   //Wait

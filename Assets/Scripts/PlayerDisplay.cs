@@ -38,6 +38,6 @@ public class PlayerDisplay : MonoBehaviour
     void DisplayHealth()
     {
         //Transform[] spawnedCrosses = healthParent.GetComponentsInChildren<Transform>();
-
+        healthbar.value = (float)player.HP;
     }
 }

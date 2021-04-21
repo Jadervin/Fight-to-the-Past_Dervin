@@ -17,7 +17,7 @@ public class PlayerController : EntityScript
     bool isGrounded;
     public float jumpHeight = 3f;
     //bool isInvincibile = false;
-    public SkinnedMeshRenderer GunMesh;
+    public MeshRenderer GunMesh;
 
     new private void Start()
     {

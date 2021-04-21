@@ -12,9 +12,11 @@ public class PlayerControllerAnimated : PlayerController
     
     public float invincibilityTime = 3;
     public float waitTime = 3;
+    
 
     new private void Start()
     {
+        base.Start();
         float iLerp = (speed - 0) / (normalSpeed - 0);
         animator.SetFloat("SpeedMultiply", iLerp);
     }
@@ -67,7 +69,7 @@ public class PlayerControllerAnimated : PlayerController
 
             if (HP <= 0)
             {
-                GunMesh.GetComponent<SkinnedMeshRenderer>().enabled = false;
+                GunMesh.GetComponent <MeshRenderer>().enabled = false;
                 //Instantiate(playerExplosion, this.transform.position, Quaternion.identity);
                 StartCoroutine(Wait(waitTime));
 
