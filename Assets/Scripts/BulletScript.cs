@@ -11,8 +11,6 @@ public class BulletScript : HitBoxScript
     float timeAlive = 0;
     //public GameObject collisionEffect;
 
-
-
     private void Update()
     {
         transform.position += transform.forward * speed * Time.deltaTime;
@@ -41,7 +39,14 @@ public class BulletScript : HitBoxScript
             Destroy(this.gameObject);
         }
 
-        
+        if (other.gameObject.tag == ("Barrel"))
+        {
+            Destroy(other.gameObject);
+            //Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            //soundSource.PlayOneShot(kill);
+            Destroy(this.gameObject);
+        }
+
         Destroy(this.gameObject);
             //Instantiate(collisionEffect, transform.position, transform.rotation);
         
