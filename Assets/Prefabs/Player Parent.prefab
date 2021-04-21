@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1695401777255701164}
   m_LocalRotation: {x: -0, y: -0.004363274, z: -0, w: 0.9999905}
-  m_LocalPosition: {x: 0, y: 0.44999993, z: -0.3699999}
+  m_LocalPosition: {x: 0, y: 0.44999993, z: -0.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1695401777688273913}
@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 1695401777688273912}
   m_Layer: 0
   m_Name: Player Parent
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -147,6 +147,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46b22f4e20b97fc4aabd75cc962b1614, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MaxHealth: 10
+  HP: 0
+  hitSoundSource: {fileID: 0}
+  hitSound: {fileID: 0}
   speed: 8.3
   controller: {fileID: 1695401777688273912}
   gravity: -9.81
@@ -155,9 +159,12 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 256
-  jumpHeight: 6
+  jumpHeight: 3
+  GunMesh: {fileID: 6071602723128398186}
   animator: {fileID: 1695401777920126392}
   normalSpeed: 0
+  invincibilityTime: 3
+  waitTime: 3
 --- !u!143 &1695401777688273912
 CharacterController:
   m_ObjectHideFlags: 0
@@ -268,7 +275,7 @@ GameObject:
   - component: {fileID: 1695401778845426336}
   m_Layer: 0
   m_Name: Gun
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -487,6 +494,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0de067e5382a72c488703355f211c1de, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1082271958561512970, guid: 0de067e5382a72c488703355f211c1de, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -530,6 +541,10 @@ PrefabInstance:
     - target: {fileID: 6083036316685353833, guid: 190acf684b3bb8543a5ad434d915b46e, type: 3}
       propertyPath: m_Name
       value: All.fbx
+      objectReference: {fileID: 0}
+    - target: {fileID: 6083036316685353833, guid: 190acf684b3bb8543a5ad434d915b46e, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6854647821843601875, guid: 190acf684b3bb8543a5ad434d915b46e, type: 3}
       propertyPath: m_RootOrder
@@ -580,5 +595,10 @@ PrefabInstance:
 --- !u!4 &1156861682273195794 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6854647821843601875, guid: 190acf684b3bb8543a5ad434d915b46e, type: 3}
+  m_PrefabInstance: {fileID: 5705328944828583617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6071602723128398186 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1977024094517845931, guid: 190acf684b3bb8543a5ad434d915b46e, type: 3}
   m_PrefabInstance: {fileID: 5705328944828583617}
   m_PrefabAsset: {fileID: 0}

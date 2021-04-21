@@ -24,7 +24,7 @@ public class GunScriptAnimated : GunScript
         }
 
 
-        else if (Input.GetButtonDown("Fire1") && coolTimer <= 0)
+        else if (Input.GetButtonDown("Fire1") && coolTimer <= 0 && Time.timeScale > 0f)
         {
             Shoot();
             coolTimer = cooldownTime;

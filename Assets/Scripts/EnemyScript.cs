@@ -10,7 +10,7 @@ public class EnemyScript : EntityScript
     public GameObject eyes;
     public float visionRange;
     public bool found = false;
-    private GameObject target;
+    protected GameObject target;
     public string hurtTag;
 
     [Header("Gun Script Attributes")]

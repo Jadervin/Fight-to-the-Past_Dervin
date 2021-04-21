@@ -7,7 +7,7 @@ public class EnemyScriptAnimated : EnemyScript
 {
     public Animator animator;
     public string animatorTriggerName;
-    private GameObject target;
+    
     public float ArmTime;
 
 
