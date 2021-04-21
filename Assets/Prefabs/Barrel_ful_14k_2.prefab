@@ -287,6 +287,7 @@ GameObject:
   - component: {fileID: 6550218507145031690}
   - component: {fileID: 6732235454383336764}
   - component: {fileID: 6732235454383336755}
+  - component: {fileID: 6148683776792224016}
   m_Layer: 0
   m_Name: Barrel_ful_14k_2
   m_TagString: Barrel
@@ -301,7 +302,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5885322541943351984}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.88, y: -0.84, z: -52.82}
   m_LocalScale: {x: 1.9352727, y: 1.9352727, z: 1.9352727}
   m_Children:
@@ -340,6 +341,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.59265924, y: 1, z: 0.5824961}
   m_Center: {x: 0.052774645, y: 0, z: -0.022520296}
+--- !u!114 &6148683776792224016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5885322541943351984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c54d585c48261c046b2df4d18acccd65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barrelEexplosionEffect: {fileID: 4855386457795861754, guid: 03f8a6c0dae6193448d55e6b35a44a3e, type: 3}
 --- !u!1 &6027228321637454531
 GameObject:
   m_ObjectHideFlags: 0

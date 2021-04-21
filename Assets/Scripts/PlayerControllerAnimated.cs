@@ -69,7 +69,7 @@ public class PlayerControllerAnimated : PlayerController
 
             if (HP <= 0)
             {
-                GunMesh.GetComponent <MeshRenderer>().enabled = false;
+                //GunMesh.GetComponent <MeshRenderer>().enabled = false;
                 //Instantiate(playerExplosion, this.transform.position, Quaternion.identity);
                 StartCoroutine(Wait(waitTime));
 

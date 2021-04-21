@@ -62,29 +62,6 @@ public class PlayerController : EntityScript
     private void OnTriggerEnter(Collider other)
     {
 
-        /*
-        //doorSoundSource.PlayOneShot(hitSound);
-        HitBoxScript hit;
-
-        if (!isInvincibile && other.TryGetComponent<HitBoxScript>(out hit))
-        {
-
-            Damage((uint)hit.damage);
-            //hitSoundSource.PlayOneShot(hitSound);
-
-            if (HP <= 0)
-            {
-                mesh.GetComponent<SkinnedMeshRenderer>().enabled = false;
-                Instantiate(playerExplosion, this.transform.position, Quaternion.identity);
-                StartCoroutine(Wait(waitTime));
-
-            }
-            else
-            {
-
-                StartCoroutine(playerInvincibility());
-            }
-        }
-        */
+        
     }
 }

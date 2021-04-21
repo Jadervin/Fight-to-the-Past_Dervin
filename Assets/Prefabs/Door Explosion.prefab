@@ -40,7 +40,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4855386457795861754}
   serializedVersion: 6
-  lengthInSec: 1
+  lengthInSec: 0.5
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -168,7 +168,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 50
+      scalar: 15
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -746,7 +746,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 2.57
+      value: 2.15
       mode: 0
       spread: 0
       speed:
@@ -1361,16 +1361,16 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0.5157232, b: 0.5410146, a: 1}
-        key1: {r: 1, g: 0.21657708, b: 0, a: 0.43137255}
-        key2: {r: 0, g: 0, b: 0, a: 1}
+        key0: {r: 0.7264151, g: 0.1279221, b: 0.15711685, a: 1}
+        key1: {r: 0.8679245, g: 0.49973354, b: 0.398481, a: 0.6392157}
+        key2: {r: 0, g: 0, b: 0, a: 0.1764706}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 0
-        ctime1: 51657
+        ctime1: 37586
         ctime2: 0
         ctime3: 0
         ctime4: 0
@@ -1378,16 +1378,16 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 43754
-        atime2: 65342
-        atime3: 0
+        atime1: 46838
+        atime2: 56669
+        atime3: 65342
         atime4: 0
         atime5: 0
         atime6: 0
         atime7: 0
         m_Mode: 0
         m_NumColorKeys: 2
-        m_NumAlphaKeys: 3
+        m_NumAlphaKeys: 4
       minGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
