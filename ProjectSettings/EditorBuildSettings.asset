@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Stage 1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/Stage Beat.unity
+    guid: eee40ec58c9c5d94ba177f9ee68aa72f
+  - enabled: 1
     path: Assets/Scenes/You Lose.unity
     guid: 676559eef2998b249aef5b4ff84f87d9
   - enabled: 1

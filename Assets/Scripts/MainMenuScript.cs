@@ -17,6 +17,8 @@ public class MainMenuScript : MonoBehaviour
 
     public void StartPressed()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         soundSource.PlayOneShot(menuClick);
         StartCoroutine(Wait(clickTimer));
        
@@ -26,6 +28,8 @@ public class MainMenuScript : MonoBehaviour
     }
     public void MenuPressed()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         soundSource.PlayOneShot(menuClick);
         StartCoroutine(Wait2(clickTimer));
         
@@ -35,7 +39,8 @@ public class MainMenuScript : MonoBehaviour
     }
     public void CreditsPressed()
     {
-
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         soundSource.PlayOneShot(menuClick);
         StartCoroutine(Wait3(clickTimer));
         
@@ -45,7 +50,8 @@ public class MainMenuScript : MonoBehaviour
     }
     public void CloseGame()
     {
-
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         soundSource.PlayOneShot(menuClick);
         StartCoroutine(Wait4(clickTimer));
         

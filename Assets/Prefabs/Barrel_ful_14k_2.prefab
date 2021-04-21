@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrelEexplosionEffect: {fileID: 4855386457795861754, guid: 03f8a6c0dae6193448d55e6b35a44a3e, type: 3}
-  radius: 100
+  radius: 5
   force: 700
 --- !u!1 &6027228321637454531
 GameObject:

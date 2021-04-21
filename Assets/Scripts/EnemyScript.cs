@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class EnemyScript : EntityScript
 {
-
+    [Header("Navigation Attributes")]
     public NavMeshAgent pathfinding;
     public GameObject eyes;
     public float visionRange;
@@ -15,11 +15,12 @@ public class EnemyScript : EntityScript
 
     [Header("Gun Script Attributes")]
     public GameObject[] projectiles;
-    public ParticleSystem MuzzleFlash;
+    public GameObject MuzzleFlash;
     public int projectileSelected = 0;
     public GameObject muzzle;
     public float cooldownTime;
     protected float coolTimer = 0;
+
 
     new private void Start()
     {
@@ -82,7 +83,7 @@ public class EnemyScript : EntityScript
     public void Shoot()
     {
         GameObject temp;
-        //MuzzleFlash.Play();
+        Instantiate(MuzzleFlash, muzzle.transform.position, Quaternion.identity);
         temp = Instantiate(projectiles[projectileSelected], muzzle.transform.position,
            muzzle.transform.rotation);
 

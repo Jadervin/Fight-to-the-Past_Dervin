@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class EntityScript : MonoBehaviour
 {
+    [Header("Health Attributes")]
     public int MaxHealth;
     public int HP;
 
     //public float speed;
+    [Header("Sounds")]
     public AudioSource hitSoundSource;
     public AudioClip hitSound;
 

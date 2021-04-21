@@ -5,11 +5,14 @@ using UnityEngine.AI;
 
 public class EnemyScriptAnimated : EnemyScript
 {
+    [Header("Animated Attributes")]
     public Animator animator;
     public string animatorTriggerName;
-    
     public float ArmTime;
 
+    [Header("Damage Attributes")]
+    public GameObject hitEffect;
+    public GameObject enemyExplosion;
 
     new void Start()
     {
@@ -105,11 +108,14 @@ public class EnemyScriptAnimated : EnemyScript
         {
 
             Damage((uint)hit.damage);
+            Instantiate(hitEffect, this.transform.position, Quaternion.identity);
             //hitSoundSource.PlayOneShot(hitSound);
 
             if (HP <= 0)
             {
+                Instantiate(enemyExplosion, this.transform.position, Quaternion.identity);
                 Destroy(this.gameObject);
+
 
             }
 

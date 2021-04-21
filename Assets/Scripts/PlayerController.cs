@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class PlayerController : EntityScript
 {
+    [Header("Controller Attributes")]
     [Range(0, 100)]
     public float speed;
     public CharacterController controller;
-
     public float gravity = -9.81f;
     Vector3 velocity;
-
     public Transform GroundCheck;
     public float GroundDistance = 0.4f;
     public LayerMask groundMask;

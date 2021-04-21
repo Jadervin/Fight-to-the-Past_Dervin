@@ -1,18 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerControllerAnimated : PlayerController
 {
+    [Header("Damage Attributes")]
+    public float invincibilityTime = 3;
+    bool isInvincibile = false;
+    public float waitTime = 3;
+    public GameObject hitEffect;
+
+    [Header("Animated Attributes")]
     public Animator animator;
     public float normalSpeed;
+
+    [Header("Controller Attributes")]
     Vector3 velo;
     bool isGround;
-    bool isInvincibile = false;
     
-    public float invincibilityTime = 3;
-    public float waitTime = 3;
-    
+
+    [Header("Scene Names")]
+    public string youWin;
+    public string youLose;
 
     new private void Start()
     {
@@ -65,6 +76,7 @@ public class PlayerControllerAnimated : PlayerController
         {
 
             Damage((uint)hit.damage);
+            Instantiate(hitEffect, this.transform.position, Quaternion.identity);
             //hitSoundSource.PlayOneShot(hitSound);
 
             if (HP <= 0)
@@ -79,6 +91,13 @@ public class PlayerControllerAnimated : PlayerController
 
                 StartCoroutine(playerInvincibility());
             }
+        }
+
+        if(other.gameObject.tag == ("Win"))
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            SceneManager.LoadScene(youWin);
         }
 
     }
