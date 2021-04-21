@@ -11,10 +11,13 @@ public class PlayerControllerAnimated : PlayerController
     bool isInvincibile = false;
     public float waitTime = 3;
     public GameObject hitEffect;
+    public GameObject playerExplosion;
+    public GameObject playerModel;
 
     [Header("Animated Attributes")]
     public Animator animator;
     public float normalSpeed;
+    public string isDeadTrigger;
 
     [Header("Controller Attributes")]
     Vector3 velo;
@@ -82,7 +85,9 @@ public class PlayerControllerAnimated : PlayerController
             if (HP <= 0)
             {
                 //GunMesh.GetComponent <MeshRenderer>().enabled = false;
-                //Instantiate(playerExplosion, this.transform.position, Quaternion.identity);
+                Destroy(playerModel);
+                Instantiate(playerExplosion, this.transform.position, Quaternion.identity);
+
                 StartCoroutine(Wait(waitTime));
 
             }
@@ -113,7 +118,7 @@ public class PlayerControllerAnimated : PlayerController
     IEnumerator Wait(float duration)
     {
         yield return new WaitForSeconds(duration);   //Wait
-        //SceneManager.LoadScene(youLose);
+        SceneManager.LoadScene(youLose);
     }
 
 }
