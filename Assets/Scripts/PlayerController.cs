@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : EntityScript
 {
     [Range(0, 100)]
     public float speed;
@@ -16,6 +16,15 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundMask;
     bool isGrounded;
     public float jumpHeight = 3f;
+    //bool isInvincibile = false;
+    public SkinnedMeshRenderer GunMesh;
+
+    new private void Start()
+    {
+        base.Start();
+        //pathfinding.speed = speed;
+
+    }
 
     // Update is called once per frame
     protected void Update()
@@ -47,5 +56,35 @@ public class PlayerController : MonoBehaviour
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity*Time.deltaTime);
+    }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+
+        /*
+        //doorSoundSource.PlayOneShot(hitSound);
+        HitBoxScript hit;
+
+        if (!isInvincibile && other.TryGetComponent<HitBoxScript>(out hit))
+        {
+
+            Damage((uint)hit.damage);
+            //hitSoundSource.PlayOneShot(hitSound);
+
+            if (HP <= 0)
+            {
+                mesh.GetComponent<SkinnedMeshRenderer>().enabled = false;
+                Instantiate(playerExplosion, this.transform.position, Quaternion.identity);
+                StartCoroutine(Wait(waitTime));
+
+            }
+            else
+            {
+
+                StartCoroutine(playerInvincibility());
+            }
+        }
+        */
     }
 }

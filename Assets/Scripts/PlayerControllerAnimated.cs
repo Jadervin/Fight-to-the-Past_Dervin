@@ -8,8 +8,12 @@ public class PlayerControllerAnimated : PlayerController
     public float normalSpeed;
     Vector3 velo;
     bool isGround;
+    bool isInvincibile = false;
+    
+    public float invincibilityTime = 3;
+    public float waitTime = 3;
 
-    private void Start()
+    new private void Start()
     {
         float iLerp = (speed - 0) / (normalSpeed - 0);
         animator.SetFloat("SpeedMultiply", iLerp);
@@ -27,23 +31,14 @@ public class PlayerControllerAnimated : PlayerController
 
         float fX = Input.GetAxis("Horizontal");
         float fZ = Input.GetAxis("Vertical");
-        //float grav = Physics.gravity.y * Time.deltaTime;
-
-        /*
-        float movX = fX * speed * Time.deltaTime;
-        float movZ = fZ * speed * Time.deltaTime;
         
-
-        */
-        //Vector3 movementVector = new Vector3(fX, grav, fZ);
-
         Vector3 movement = transform.right * fX + transform.forward * fZ;
 
         animator.SetFloat("x", fX);
         animator.SetFloat("y", fZ);
 
         controller.Move(movement * speed * Time.deltaTime);
-        //controller.Move(movementVector * speed * Time.deltaTime);
+       
 
         if(Input.GetButtonDown("Jump") && isGround)
         {
@@ -56,7 +51,48 @@ public class PlayerControllerAnimated : PlayerController
         
     }
 
-  
 
+    private void OnTriggerEnter(Collider other)
+    {
+
+
+        //doorSoundSource.PlayOneShot(hitSound);
+        HitBoxScript hit;
+
+        if (!isInvincibile && other.TryGetComponent<HitBoxScript>(out hit))
+        {
+
+            Damage((uint)hit.damage);
+            //hitSoundSource.PlayOneShot(hitSound);
+
+            if (HP <= 0)
+            {
+                GunMesh.GetComponent<SkinnedMeshRenderer>().enabled = false;
+                //Instantiate(playerExplosion, this.transform.position, Quaternion.identity);
+                StartCoroutine(Wait(waitTime));
+
+            }
+            else
+            {
+
+                StartCoroutine(playerInvincibility());
+            }
+        }
+
+    }
+
+
+    IEnumerator playerInvincibility()
+    {
+        isInvincibile = true;
+        yield return new WaitForSeconds(invincibilityTime);
+        isInvincibile = false;
+    }
+
+    IEnumerator Wait(float duration)
+    {
+        yield return new WaitForSeconds(duration);   //Wait
+        //SceneManager.LoadScene(youLose);
+    }
 
 }
