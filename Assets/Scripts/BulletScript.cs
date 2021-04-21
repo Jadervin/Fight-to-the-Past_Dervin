@@ -38,7 +38,7 @@ public class BulletScript : HitBoxScript
             //soundSource.PlayOneShot(kill);
             Destroy(this.gameObject);
         }
-
+        /*
         if (other.gameObject.tag == ("Barrel"))
         {
             Destroy(other.gameObject);
@@ -46,7 +46,7 @@ public class BulletScript : HitBoxScript
             //soundSource.PlayOneShot(kill);
             Destroy(this.gameObject);
         }
-
+        */
         Destroy(this.gameObject);
             //Instantiate(collisionEffect, transform.position, transform.rotation);
         
