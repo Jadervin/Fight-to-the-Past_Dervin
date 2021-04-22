@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class PlayerControllerAnimated : PlayerController
 {
+    [Header("Sounds")]
+    public AudioSource soundSource;
+    public AudioClip DeathSound;
+    public AudioClip JumpSound;
+
     [Header("Damage Attributes")]
     public float invincibilityTime = 3;
     bool isInvincibile = false;
@@ -28,6 +33,10 @@ public class PlayerControllerAnimated : PlayerController
     public string youWin;
     public string youLose;
 
+    [Header("Menu")]
+    public GameObject ShieldIcon;
+
+    
     new private void Start()
     {
         base.Start();
@@ -58,6 +67,7 @@ public class PlayerControllerAnimated : PlayerController
 
         if(Input.GetButtonDown("Jump") && isGround)
         {
+            soundSource.PlayOneShot(JumpSound);
             velo.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
         }
 
@@ -80,14 +90,14 @@ public class PlayerControllerAnimated : PlayerController
 
             Damage((uint)hit.damage);
             Instantiate(hitEffect, this.transform.position, Quaternion.identity);
-            //hitSoundSource.PlayOneShot(hitSound);
+            
 
             if (HP <= 0)
             {
                 //GunMesh.GetComponent <MeshRenderer>().enabled = false;
                 Destroy(playerModel);
                 Instantiate(playerExplosion, this.transform.position, Quaternion.identity);
-
+                soundSource.PlayOneShot(DeathSound);
                 StartCoroutine(Wait(waitTime));
 
             }
@@ -111,13 +121,17 @@ public class PlayerControllerAnimated : PlayerController
     IEnumerator playerInvincibility()
     {
         isInvincibile = true;
+        ShieldIcon.SetActive(true);
         yield return new WaitForSeconds(invincibilityTime);
         isInvincibile = false;
+        ShieldIcon.SetActive(false);
     }
 
     IEnumerator Wait(float duration)
     {
         yield return new WaitForSeconds(duration);   //Wait
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         SceneManager.LoadScene(youLose);
     }
 

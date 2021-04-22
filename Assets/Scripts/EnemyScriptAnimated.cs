@@ -14,6 +14,10 @@ public class EnemyScriptAnimated : EnemyScript
     public GameObject hitEffect;
     public GameObject enemyExplosion;
 
+    [Header("Sounds")]
+    public AudioSource deathSoundSource;
+    public AudioClip DeathSound;
+
     new void Start()
     {
         base.Start();
@@ -109,11 +113,12 @@ public class EnemyScriptAnimated : EnemyScript
 
             Damage((uint)hit.damage);
             Instantiate(hitEffect, this.transform.position, Quaternion.identity);
-            //hitSoundSource.PlayOneShot(hitSound);
+            
 
             if (HP <= 0)
             {
                 Instantiate(enemyExplosion, this.transform.position, Quaternion.identity);
+                deathSoundSource.PlayOneShot(DeathSound);
                 Destroy(this.gameObject);
 
 

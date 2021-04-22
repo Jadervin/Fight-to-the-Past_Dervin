@@ -9,7 +9,9 @@ public class GunScript : MonoBehaviour
     public int projectileSelected = 0;
     public GameObject muzzle;
     public float cooldownTime;
-   
+    public AudioSource soundSource;
+    public AudioClip GunShot;
+
     protected float coolTimer = 0;
 
     protected void Update()
@@ -67,6 +69,7 @@ public class GunScript : MonoBehaviour
         Instantiate(MuzzleFlash, muzzle.transform.position, Quaternion.identity);
         temp = Instantiate(projectiles[projectileSelected], muzzle.transform.position, 
            muzzle.transform.rotation);
+        soundSource.PlayOneShot(GunShot);
 
     }
 }

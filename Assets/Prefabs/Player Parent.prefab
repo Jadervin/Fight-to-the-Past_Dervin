@@ -278,8 +278,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 3
   HP: 0
-  hitSoundSource: {fileID: 0}
-  hitSound: {fileID: 0}
+  hitSoundSource: {fileID: 949153398}
+  hitSound: {fileID: 8300000, guid: 1dcfa6ec57e2978468eb3f65198936f4, type: 3}
   speed: 8
   controller: {fileID: 1695401777688273912}
   gravity: -9.81
@@ -290,15 +290,19 @@ MonoBehaviour:
     m_Bits: 256
   jumpHeight: 3
   GunMesh: {fileID: 6071602723128398186}
+  soundSource: {fileID: 949153398}
+  DeathSound: {fileID: 8300000, guid: 29f178ac0d2cb7542955fe5f352f7dd1, type: 3}
   invincibilityTime: 3
   waitTime: 3
-  hitEffect: {fileID: 4228448611646755611, guid: baf46350be566284ab33343c22342be9, type: 3}
+  hitEffect: {fileID: 4228448611646755611, guid: ff22adb302ac72a469c60b610d6b111e, type: 3}
   playerExplosion: {fileID: 4855386457795861754, guid: 976a845365c7a6040830177dfc30017d, type: 3}
+  playerModel: {fileID: 1965310234292710939}
   animator: {fileID: 1695401777920126392}
-  normalSpeed: 0
+  normalSpeed: 1
   isDeadTrigger: IsDead
   youWin: Stage Beat
   youLose: You Lose
+  ShieldIcon: {fileID: 0}
 --- !u!143 &1695401777688273912
 CharacterController:
   m_ObjectHideFlags: 0
@@ -329,11 +333,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2b3dadd82ac13488c9b2d9cb03009a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1695401777920126392}
-  isDeadTrigger: IsDead
+  playerModel: {fileID: 1965310234292710939}
   playerExplosion: {fileID: 4855386457795861754, guid: 976a845365c7a6040830177dfc30017d, type: 3}
   waitTime: 3
   youLose: You Lose
+  soundSource: {fileID: 949153398}
+  explosionSound: {fileID: 8300000, guid: 29f178ac0d2cb7542955fe5f352f7dd1, type: 3}
 --- !u!1 &1695401777807018630
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +418,8 @@ MonoBehaviour:
   projectileSelected: 0
   muzzle: {fileID: 1695401778982896332}
   cooldownTime: 0
+  soundSource: {fileID: 949153398}
+  GunShot: {fileID: 8300000, guid: 4e3cc0bcbedb48944945c74a4aeebb9e, type: 3}
   animator: {fileID: 1695401777920126392}
   animatorTriggerName: Shooting
 --- !u!1 &1695401778845426337

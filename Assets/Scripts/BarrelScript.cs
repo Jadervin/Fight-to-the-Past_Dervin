@@ -8,17 +8,10 @@ public class BarrelScript : MonoBehaviour
     
     public float radius = 5f;
     public float force = 700f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public AudioSource soundSource;
+    public AudioClip explosionSound;
+    
 
     private void OnTriggerEnter(Collider other)
     {
@@ -36,6 +29,7 @@ public class BarrelScript : MonoBehaviour
     void Explode()
     {
         Instantiate(barrelEexplosionEffect, this.transform.position, this.transform.rotation);
+        soundSource.PlayOneShot(explosionSound);
         Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
 
         foreach(Collider nearbyObject in colliders)

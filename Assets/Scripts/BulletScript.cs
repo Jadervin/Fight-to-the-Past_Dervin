@@ -9,7 +9,9 @@ public class BulletScript : HitBoxScript
     public float despawnTime;
     
     float timeAlive = 0;
-    //public GameObject collisionEffect;
+    public GameObject explosionEffect;
+    public AudioSource soundSource;
+    public AudioClip explosionSound;
 
     private void Update()
     {
@@ -34,19 +36,11 @@ public class BulletScript : HitBoxScript
         if (other.gameObject.tag == ("Door"))
         {
             Destroy(other.gameObject);
-            //Instantiate(explosionEffect, transform.position, Quaternion.identity);
-            //soundSource.PlayOneShot(kill);
+            Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            //soundSource.PlayOneShot(explosionSound);
             Destroy(this.gameObject);
         }
-        /*
-        if (other.gameObject.tag == ("Barrel"))
-        {
-            Destroy(other.gameObject);
-            //Instantiate(explosionEffect, transform.position, Quaternion.identity);
-            //soundSource.PlayOneShot(kill);
-            Destroy(this.gameObject);
-        }
-        */
+        
         Destroy(this.gameObject);
             //Instantiate(collisionEffect, transform.position, transform.rotation);
         
@@ -56,6 +50,7 @@ public class BulletScript : HitBoxScript
 
     private void OnCollisionEnter(Collision collision)
     {
+        /*
         if (collision.gameObject.tag == ("Door"))
         {
             Destroy(collision.gameObject);
@@ -63,6 +58,6 @@ public class BulletScript : HitBoxScript
             //soundSource.PlayOneShot(kill);
             Destroy(this.gameObject);
         }
-
+        */
     }
 }

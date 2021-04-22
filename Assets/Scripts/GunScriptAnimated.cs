@@ -6,6 +6,7 @@ public class GunScriptAnimated : GunScript
 {
     public Animator animator;
     public string animatorTriggerName;
+    
 
     // Start is called before the first frame update
     void Start()
