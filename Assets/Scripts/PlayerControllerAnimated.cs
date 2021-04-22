@@ -115,6 +115,15 @@ public class PlayerControllerAnimated : PlayerController
             SceneManager.LoadScene(youWin);
         }
 
+        if (other.gameObject.tag == ("End"))
+        {
+            Destroy(playerModel);
+            Instantiate(playerExplosion, this.transform.position, this.transform.rotation);
+            soundSource.PlayOneShot(DeathSound);
+            StartCoroutine(Wait(waitTime));
+
+        }
+
     }
 
 

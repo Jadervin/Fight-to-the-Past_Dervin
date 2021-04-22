@@ -11,6 +11,7 @@ public class CameraMovement : MonoBehaviour
     //int degrees = 10;
 
     float xRotation = 0f;
+    float yRotation = 0f;
 
     private void Start()
     {
@@ -28,10 +29,16 @@ public class CameraMovement : MonoBehaviour
 
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        yRotation += mouseX;
 
+
+        player.transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
+
+        //transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        
 
         player.Rotate(Vector3.up * mouseX);
+        //player.Rotate(Vector3.forward * mouseY);
 
         /*
         if (Input.GetMouseButton(1))
