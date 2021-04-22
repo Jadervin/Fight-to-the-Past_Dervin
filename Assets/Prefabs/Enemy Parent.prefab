@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 66965374}
   m_Layer: 0
   m_Name: Enemy Parent
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -410,7 +410,7 @@ MonoBehaviour:
   playerExplosion: {fileID: 0}
   waitTime: 3
   youLose: 
-  soundSource: {fileID: 144659601}
+  soundSource: {fileID: 0}
   explosionSound: {fileID: 8300000, guid: 4e46f47a00a361f46a0920c054846dd6, type: 3}
 --- !u!1 &7069690826945385116
 GameObject:

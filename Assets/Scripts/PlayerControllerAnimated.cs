@@ -89,14 +89,14 @@ public class PlayerControllerAnimated : PlayerController
         {
 
             Damage((uint)hit.damage);
-            Instantiate(hitEffect, this.transform.position, Quaternion.identity);
+            Instantiate(hitEffect, this.transform.position, this.transform.rotation);
             
 
             if (HP <= 0)
             {
                 //GunMesh.GetComponent <MeshRenderer>().enabled = false;
                 Destroy(playerModel);
-                Instantiate(playerExplosion, this.transform.position, Quaternion.identity);
+                Instantiate(playerExplosion, this.transform.position, this.transform.rotation);
                 soundSource.PlayOneShot(DeathSound);
                 StartCoroutine(Wait(waitTime));
 

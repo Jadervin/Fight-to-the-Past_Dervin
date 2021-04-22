@@ -12,8 +12,15 @@ public class Destructible : MonoBehaviour
     public string youLose;
     public AudioSource soundSource;
     public AudioClip explosionSound;
+    
 
     public void Destroy()
+    {
+        Destroy(this.gameObject);
+        soundSource.PlayOneShot(explosionSound);
+    }
+
+    public void PlayerDestroy()
     {
         Instantiate(playerExplosion, this.transform.position, Quaternion.identity);
         Destroy(playerModel);

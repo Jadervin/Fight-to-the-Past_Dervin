@@ -276,7 +276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46b22f4e20b97fc4aabd75cc962b1614, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 3
+  MaxHealth: 10
   HP: 0
   hitSoundSource: {fileID: 949153398}
   hitSound: {fileID: 8300000, guid: 1dcfa6ec57e2978468eb3f65198936f4, type: 3}
@@ -292,6 +292,7 @@ MonoBehaviour:
   GunMesh: {fileID: 6071602723128398186}
   soundSource: {fileID: 949153398}
   DeathSound: {fileID: 8300000, guid: 29f178ac0d2cb7542955fe5f352f7dd1, type: 3}
+  JumpSound: {fileID: 8300000, guid: 130a66ab2c7972745a6fcb65b6357766, type: 3}
   invincibilityTime: 3
   waitTime: 3
   hitEffect: {fileID: 4228448611646755611, guid: ff22adb302ac72a469c60b610d6b111e, type: 3}

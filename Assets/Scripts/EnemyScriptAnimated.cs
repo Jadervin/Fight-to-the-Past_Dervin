@@ -66,7 +66,8 @@ public class EnemyScriptAnimated : EnemyScript
             if (Physics.Raycast(ray, out hit, visionRange) && hit.transform.tag == "Player")
             {
 
-                Debug.Log("I see something in my face at " + Vector3.Distance(this.transform.position, hit.point));
+                Debug.Log("I see something in my face at " + 
+                    Vector3.Distance(this.transform.position, hit.point));
                 found = true;
 
                 if (coolTimer <= 0)
@@ -112,12 +113,12 @@ public class EnemyScriptAnimated : EnemyScript
         {
 
             Damage((uint)hit.damage);
-            Instantiate(hitEffect, this.transform.position, Quaternion.identity);
+            Instantiate(hitEffect, this.transform.position, this.transform.rotation);
             
 
             if (HP <= 0)
             {
-                Instantiate(enemyExplosion, this.transform.position, Quaternion.identity);
+                Instantiate(enemyExplosion, this.transform.position, this.transform.rotation);
                 deathSoundSource.PlayOneShot(DeathSound);
                 Destroy(this.gameObject);
 

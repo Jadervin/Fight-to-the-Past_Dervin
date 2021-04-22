@@ -44,9 +44,15 @@ public class BarrelScript : MonoBehaviour
             }
 
             Destructible dest = nearbyObject.GetComponent<Destructible>();
-            if (dest!=null)
+
+            if (dest!=null && nearbyObject.tag == ("Enemy"))
             {
                 dest.Destroy();
+
+            }
+            if (dest != null && nearbyObject.tag == ("Player"))
+            {
+                dest.PlayerDestroy();
 
             }
         }
