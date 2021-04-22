@@ -5462,6 +5462,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1695401777688273915, guid: c33c6ba87cd628946bb1833d4cc09bcf, type: 3}
       propertyPath: MaxHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695401777688273915, guid: c33c6ba87cd628946bb1833d4cc09bcf, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 4228448611646755611, guid: ff22adb302ac72a469c60b610d6b111e, type: 3}
+    - target: {fileID: 1695401777688273915, guid: c33c6ba87cd628946bb1833d4cc09bcf, type: 3}
+      propertyPath: normalSpeed
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1695401777688273915, guid: c33c6ba87cd628946bb1833d4cc09bcf, type: 3}
