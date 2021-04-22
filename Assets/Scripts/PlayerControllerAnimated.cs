@@ -50,7 +50,7 @@ public class PlayerControllerAnimated : PlayerController
 
         if(isGround&&velo.y<0)
         {
-
+            animator.enabled = true;
             velo.y = -2f;
         }
 
@@ -67,6 +67,7 @@ public class PlayerControllerAnimated : PlayerController
 
         if(Input.GetButtonDown("Jump") && isGround)
         {
+            animator.enabled = false;
             soundSource.PlayOneShot(JumpSound);
             velo.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
         }
