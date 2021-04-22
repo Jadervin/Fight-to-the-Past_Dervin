@@ -35,9 +35,7 @@ public class BulletScript : HitBoxScript
 
         if (other.gameObject.tag == ("Door"))
         {
-            Destroy(other.gameObject);
-            Instantiate(explosionEffect, transform.position, Quaternion.identity);
-            //soundSource.PlayOneShot(explosionSound);
+            
             Destroy(this.gameObject);
         }
         

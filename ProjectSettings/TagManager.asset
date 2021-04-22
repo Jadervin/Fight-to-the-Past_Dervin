@@ -9,6 +9,7 @@ TagManager:
   - Win
   - Barrel
   - Bullet
+  - End
   layers:
   - Default
   - TransparentFX
