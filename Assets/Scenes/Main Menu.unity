@@ -608,7 +608,7 @@ MonoBehaviour:
   Menu: Main Menu
   Credits: Credits
   soundSource: {fileID: 697474348}
-  menuClick: {fileID: 0}
+  menuClick: {fileID: 8300000, guid: 8db322fc4130ce84eb6909ca51d6d361, type: 3}
   clickTimer: 0.5
 --- !u!4 &830216278
 Transform:
