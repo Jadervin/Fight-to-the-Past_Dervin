@@ -175,7 +175,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 1292.8014
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -309,6 +309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &7530152 stripped
@@ -437,6 +441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1001 &27813141
@@ -498,6 +506,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1001 &46311882
@@ -559,6 +571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &49516730
@@ -717,7 +733,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1030,6 +1046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &68495325 stripped
@@ -1267,7 +1287,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1364,7 +1384,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1564,6 +1584,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &156404320
@@ -1769,6 +1793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &175121325 stripped
@@ -2075,6 +2103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &197370200 stripped
@@ -2141,6 +2173,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &198488591 stripped
@@ -2319,6 +2355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &223273400 stripped
@@ -2466,7 +2506,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2574,6 +2614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &252927941 stripped
@@ -2672,8 +2716,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253271460}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 82.1, y: -0.4, z: 639.3}
-  m_LocalScale: {x: 73.82736, y: 3.901997, z: 144.66466}
+  m_LocalPosition: {x: 10.66, y: -0.4, z: -26.04}
+  m_LocalScale: {x: 50.283318, y: 3.9019978, z: 11.605924}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -2896,6 +2940,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &301440007 stripped
@@ -2990,7 +3038,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3124,7 +3172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1695401777991165763, guid: c33c6ba87cd628946bb1833d4cc09bcf, type: 3}
       propertyPath: cooldownTime
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c33c6ba87cd628946bb1833d4cc09bcf, type: 3}
@@ -3241,7 +3289,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3462,6 +3510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &386784500 stripped
@@ -3587,6 +3639,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405912358}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &420158599 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+  m_PrefabInstance: {fileID: 626718793}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &427577303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3646,6 +3703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &427577304 stripped
@@ -3712,6 +3773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &442665435 stripped
@@ -3778,6 +3843,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &444997532 stripped
@@ -4206,6 +4275,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &555261102 stripped
@@ -4321,7 +4394,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4429,6 +4502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &565249552 stripped
@@ -4495,6 +4572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &585593648 stripped
@@ -4561,6 +4642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &587893663 stripped
@@ -4627,6 +4712,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &609760390 stripped
@@ -4866,6 +4955,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
   m_PrefabInstance: {fileID: 46311882}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &626718793
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 891235528}
+    m_Modifications:
+    - target: {fileID: 341353664768524102, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: deathSoundSource
+      value: 
+      objectReference: {fileID: 197150250}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_RootOrder
+      value: 76
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -98.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -19.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524107, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_Name
+      value: Alter Enemy Parent  (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &651416299
 GameObject:
   m_ObjectHideFlags: 0
@@ -5230,6 +5384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &667138128 stripped
@@ -5296,6 +5454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &714414736
@@ -5341,7 +5503,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.39871833, g: 0.82989174, b: 0.990566, a: 1}
-  m_Intensity: 25
+  m_Intensity: 20
   m_Range: 55.625427
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -5433,7 +5595,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -5512,7 +5674,7 @@ RectTransform:
   m_LocalScale: {x: 0.7936665, y: 0.7936665, z: 0.7936665}
   m_Children: []
   m_Father: {fileID: 1041199420}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5729,6 +5891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &767580252 stripped
@@ -5789,6 +5955,11 @@ Transform:
   m_Father: {fileID: 2024322162}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &774185008 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+  m_PrefabInstance: {fileID: 1500869613}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &785925115
 GameObject:
   m_ObjectHideFlags: 0
@@ -6166,7 +6337,7 @@ RectTransform:
   - {fileID: 1741690514}
   - {fileID: 1500139507}
   m_Father: {fileID: 1041199420}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6421,6 +6592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &856773556
@@ -6541,6 +6716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &891235527
@@ -6644,6 +6823,9 @@ Transform:
   - {fileID: 908581783}
   - {fileID: 970732621}
   - {fileID: 223273400}
+  - {fileID: 774185008}
+  - {fileID: 1405118134}
+  - {fileID: 420158599}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6695,7 +6877,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -6808,6 +6990,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &912341346 stripped
@@ -7168,6 +7354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &926787093
@@ -7393,6 +7583,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &968848490 stripped
@@ -7464,6 +7658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &974520482
@@ -7496,7 +7694,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1041199420}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7593,7 +7791,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.39871833, g: 0.82989174, b: 0.990566, a: 1}
-  m_Intensity: 25
+  m_Intensity: 20
   m_Range: 44.23697
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -8007,6 +8205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1001 &1034613268
@@ -8068,6 +8270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &1041199414
@@ -8197,11 +8403,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1384712953}
   - {fileID: 974520483}
   - {fileID: 802067797}
   - {fileID: 747743804}
   - {fileID: 1102709272}
-  - {fileID: 1384712953}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8269,6 +8475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1042132597 stripped
@@ -8335,6 +8545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &1065933068
@@ -8528,7 +8742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3076165697413466869, guid: 75bfec1051fcea94089c74ecb430c420, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3076165697413466869, guid: 75bfec1051fcea94089c74ecb430c420, type: 3}
       propertyPath: m_AnchorMax.x
@@ -8713,6 +8927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1131612079 stripped
@@ -8983,6 +9201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1165906269 stripped
@@ -9033,7 +9255,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -9521,6 +9743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1187625230 stripped
@@ -9679,6 +9905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Alter Enemy Parent '
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1001 &1217741008
@@ -9740,6 +9970,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &1219610169 stripped
@@ -9933,6 +10167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1228636989 stripped
@@ -10164,6 +10402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1312863388 stripped
@@ -10230,6 +10472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &1335184344 stripped
@@ -10505,6 +10751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1380332913 stripped
@@ -10542,7 +10792,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1041199420}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10646,6 +10896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1387371197 stripped
@@ -10712,6 +10966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1396615911 stripped
@@ -10875,7 +11133,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -10924,6 +11182,11 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!4 &1405118134 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+  m_PrefabInstance: {fileID: 1953447346}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1409259212
 GameObject:
   m_ObjectHideFlags: 0
@@ -10967,7 +11230,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.39871833, g: 0.82989174, b: 0.990566, a: 1}
-  m_Intensity: 25
+  m_Intensity: 20
   m_Range: 49.10681
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -11059,7 +11322,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -11259,6 +11522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &1443872742 stripped
@@ -11339,6 +11606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1459390252 stripped
@@ -11583,6 +11854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1465787259 stripped
@@ -11865,6 +12140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1001 &1477179945
@@ -12056,6 +12335,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1480462007 stripped
@@ -12122,6 +12405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &1494648462
@@ -12252,6 +12539,71 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1500869613
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 891235528}
+    m_Modifications:
+    - target: {fileID: 341353664768524102, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: deathSoundSource
+      value: 
+      objectReference: {fileID: 197150250}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_RootOrder
+      value: 74
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -89.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.56267333
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8266794
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 111.518
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524107, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_Name
+      value: Alter Enemy Parent  (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1507431645 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
@@ -12331,7 +12683,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -12439,6 +12791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1558859706 stripped
@@ -12600,7 +12956,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.39871833, g: 0.82989174, b: 0.990566, a: 1}
-  m_Intensity: 25
+  m_Intensity: 20
   m_Range: 42.836746
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -12825,6 +13181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1621296206 stripped
@@ -13007,7 +13367,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -13233,6 +13593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1001 &1683140329
@@ -13294,6 +13658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1683140330 stripped
@@ -13360,6 +13728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1683194253 stripped
@@ -13491,6 +13863,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1696709761 stripped
@@ -13824,6 +14200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1749997772 stripped
@@ -13986,7 +14366,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -14099,6 +14479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1769366932 stripped
@@ -14165,6 +14549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1771309763 stripped
@@ -14231,6 +14619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1801169582 stripped
@@ -14281,7 +14673,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.39871833, g: 0.82989174, b: 0.990566, a: 1}
-  m_Intensity: 25
+  m_Intensity: 20
   m_Range: 40.363922
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -14418,6 +14810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1 &1850199658
@@ -14710,6 +15106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1886115791 stripped
@@ -14776,6 +15176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1897736208 stripped
@@ -14876,6 +15280,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1926813706 stripped
@@ -14942,6 +15350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1941440594 stripped
@@ -14992,7 +15404,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.39871833, g: 0.82989174, b: 0.990566, a: 1}
-  m_Intensity: 25
+  m_Intensity: 20
   m_Range: 58.5578
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -15100,6 +15512,75 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Alter Enemy Parent '
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+--- !u!1001 &1953447346
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 891235528}
+    m_Modifications:
+    - target: {fileID: 341353664768524102, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: deathSoundSource
+      value: 
+      objectReference: {fileID: 197150250}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_RootOrder
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -90.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.66622555
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7457503
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 96.447
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524104, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 341353664768524107, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: m_Name
+      value: Alter Enemy Parent  (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1001 &1959576337
@@ -15229,6 +15710,10 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4235729450609539576, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.11
@@ -15241,6 +15726,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: -2964225117148605397, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -2572967989333021709, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -15256,6 +15745,10 @@ PrefabInstance:
     - target: {fileID: -2404727334541294235, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1294892128559850198, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_Type
@@ -15279,7 +15772,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1294892128559850198, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_Intensity
-      value: 40
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -1294892128559850198, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_Lightmapping
@@ -15301,6 +15794,14 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1076622865230832474, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -678588488315902003, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -516098083770646512, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -15316,6 +15817,14 @@ PrefabInstance:
     - target: {fileID: -352389591414561481, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 64039825496654726, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 505279753531975417, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_Name
@@ -15328,6 +15837,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2661215666156734702, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3996715374946979927, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4974984522306558807, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_Layer
@@ -15403,7 +15920,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5958438921693756439, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_Intensity
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5958438921693756439, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_AreaSize.x
@@ -15531,7 +16048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8912049515002365231, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_Intensity
-      value: 40
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8912049515002365231, guid: 50dbe72f20618ac4dae8ef72476d3337, type: 3}
       propertyPath: m_Lightmapping
@@ -15712,6 +16229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1001 &1978619821
@@ -15773,6 +16294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!1001 &1984353248
@@ -15834,6 +16359,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &1984353249 stripped
@@ -16110,6 +16639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &2000041082 stripped
@@ -16551,13 +17084,13 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.39871833, g: 0.82989174, b: 0.990566, a: 1}
-  m_Intensity: 25
+  m_Intensity: 20
   m_Range: 47.548035
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16678,6 +17211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &2060360720 stripped
@@ -16728,7 +17265,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.6761006, g: 0.931472, b: 1, a: 1}
-  m_Intensity: 40
+  m_Intensity: 20
   m_Range: 28.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -16999,6 +17536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alter Enemy Parent  (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
 --- !u!4 &2101252415 stripped
@@ -17430,5 +17971,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Alter Enemy Parent '
       objectReference: {fileID: 0}
+    - target: {fileID: 7394960069837533418, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}
+      propertyPath: soundSource
+      value: 
+      objectReference: {fileID: 197150250}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d59763fa390cd241929d1702c3b0896, type: 3}

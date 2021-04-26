@@ -144,8 +144,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 25
+  speed: 30
   despawnTime: 2
+  explosionEffect: {fileID: 0}
+  soundSource: {fileID: 0}
+  explosionSound: {fileID: 0}
 --- !u!135 &8329480542674148732
 SphereCollider:
   m_ObjectHideFlags: 0
