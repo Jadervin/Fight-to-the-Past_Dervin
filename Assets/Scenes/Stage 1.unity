@@ -8092,9 +8092,17 @@ PrefabInstance:
       propertyPath: ShieldIcon
       value: 
       objectReference: {fileID: 656067291}
+    - target: {fileID: 1695401777688273915, guid: c33c6ba87cd628946bb1833d4cc09bcf, type: 3}
+      propertyPath: invincibilityTime
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1695401777688273918, guid: c33c6ba87cd628946bb1833d4cc09bcf, type: 3}
       propertyPath: m_Name
       value: Player Parent
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695401777991165763, guid: c33c6ba87cd628946bb1833d4cc09bcf, type: 3}
+      propertyPath: cooldownTime
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c33c6ba87cd628946bb1833d4cc09bcf, type: 3}

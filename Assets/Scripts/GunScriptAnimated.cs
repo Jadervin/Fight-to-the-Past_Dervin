@@ -27,9 +27,10 @@ public class GunScriptAnimated : GunScript
 
         else if (Input.GetButtonDown("Fire1") && coolTimer <= 0 && Time.timeScale > 0f)
         {
+            animator.SetTrigger("Shooting");
             Shoot();
             coolTimer = cooldownTime;
-            animator.SetTrigger("Shooting");
+            
         }
 
     }

@@ -8,10 +8,11 @@ public class CameraMovement : MonoBehaviour
     public float mouseSensit = 100f;
 
     public Transform player;
+    public Transform eyes;
     //int degrees = 10;
 
-    float xRotation = 0f;
     float yRotation = 0f;
+    float xRotation = 0f;
 
     private void Start()
     {
@@ -25,14 +26,14 @@ public class CameraMovement : MonoBehaviour
         float mouseX = Input.GetAxis("Mouse X") * mouseSensit * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensit * Time.deltaTime;
 
-        xRotation -= mouseY;
+        yRotation -= mouseY;
 
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        yRotation = Mathf.Clamp(yRotation, -90f, 90f);
 
-        yRotation += mouseX;
+        //xRotation += mouseX;
 
 
-        player.transform.localRotation = Quaternion.Euler(xRotation, yRotation, 0f);
+        eyes.transform.localRotation = Quaternion.Euler(yRotation, 0f, 0f);
 
         //transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         
