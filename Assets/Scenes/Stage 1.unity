@@ -8044,6 +8044,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1695401777255701160, guid: c33c6ba87cd628946bb1833d4cc09bcf, type: 3}
+      propertyPath: eyes
+      value: 
+      objectReference: {fileID: 208026274}
     - target: {fileID: 1695401777688273913, guid: c33c6ba87cd628946bb1833d4cc09bcf, type: 3}
       propertyPath: m_RootOrder
       value: 2
