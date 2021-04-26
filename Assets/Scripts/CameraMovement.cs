@@ -12,7 +12,7 @@ public class CameraMovement : MonoBehaviour
     //int degrees = 10;
 
     float yRotation = 0f;
-    float xRotation = 0f;
+    //float xRotation = 0f;
 
     private void Start()
     {
