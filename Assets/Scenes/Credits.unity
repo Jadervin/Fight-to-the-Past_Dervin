@@ -963,14 +963,13 @@ PrefabInstance:
       propertyPath: m_Text
       value: "Models:\nPortal by Milionna\r\nSci-Fi Assault Rifle by Ptis\r\nDoor
         by golddog\r\nDeath Row Spaceship by blacknibow\r\nBarrel by hawol\r\nSci-Fi
-        Tunel by BuntyS\r\nEnemy Models from Mixamo\n\nMusic:\n\"Ether Vox\" Kevin
-        MacLeod (incompetech.com)\r\nLicensed under Creative Commons: By Attribution
-        4.0 License\r\nhttp://creativecommons.org/licenses/by/4.0/\r\n\"Canon In
-        D Interstellar Mix\" Kevin MacLeod (incompetech.com)\r\nLicensed under Creative
-        Commons: By Attribution 4.0 License\r\nhttp://creativecommons.org/licenses/by/4.0/
-        \r\n\"Rising\" Kevin MacLeod (incompetech.com)\r\nLicensed under Creative
-        Commons: By Attribution 4.0 License\r\nhttp://creativecommons.org/licenses/by/4.0/
-        \r\n"
+        Tunel by BuntyS\r\nEnemy Models from Mixamo\n\nMusic:\n\"Canon In D Interstellar
+        Mix\" Kevin MacLeod (incompetech.com)\r\nLicensed under Creative Commons:
+        By Attribution 4.0 License\r\nhttp://creativecommons.org/licenses/by/4.0/
+        \r\n\"Ether Vox\" Kevin MacLeod (incompetech.com)\r\nLicensed under Creative
+        Commons: By Attribution 4.0 License\r\nhttp://creativecommons.org/licenses/by/4.0/\r\n\"Rising\"
+        Kevin MacLeod (incompetech.com)\r\nLicensed under Creative Commons: By Attribution
+        4.0 License\r\nhttp://creativecommons.org/licenses/by/4.0/ \r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4367554232584764889, guid: 9b5c30ce5a7239540a2a599bcdf03ba8, type: 3}
       propertyPath: m_SizeDelta.y
