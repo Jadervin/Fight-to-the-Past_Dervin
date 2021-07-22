@@ -199,8 +199,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000019501913, y: -556.8}
-  m_SizeDelta: {x: 916.2916, y: 1525.2402}
+  m_AnchoredPosition: {x: -0.000019501913, y: -438.26755}
+  m_SizeDelta: {x: 916.2916, y: 1288.1763}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4367554232584764887
 CanvasRenderer:
@@ -243,8 +243,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Models:\nPortal by Milionna\r\nSci-Fi Assault Rifle by Ptis\r\n\nCharacter
-    Models from Mixamo:\nEly by K.Atienza\nAlien Soldier \nSoldier\n\nMusic:\n"
+  m_Text: "This game is made by Jonathan Dervin\n\nModels:\nPortal by Milionna\r\nSci-Fi
+    Assault Rifle by Ptis\r\nDoor by golddog\r\nDeath Row Spaceship by blacknibow\r\nBarrel
+    by hawol\r\nSci-Fi Tunel by BuntyS\r\nEnemy Models from Mixamo\n\nMusic:\n\"Canon
+    In D Interstellar Mix\" Kevin MacLeod (incompetech.com)\r\nLicensed under Creative
+    Commons: By Attribution 4.0 License\r\nhttp://creativecommons.org/licenses/by/4.0/
+    \r\n\"Ether Vox\" Kevin MacLeod (incompetech.com)\r\nLicensed under Creative
+    Commons: By Attribution 4.0 License\r\nhttp://creativecommons.org/licenses/by/4.0/\r\n\"Rising\"
+    Kevin MacLeod (incompetech.com)\r\nLicensed under Creative Commons: By Attribution
+    4.0 License\r\nhttp://creativecommons.org/licenses/by/4.0/ \r\n\nI have neither
+    given nor received unauthorized aid in completing this work, nor have I presented
+    someone else's work as my own.\n"
 --- !u!1 &4367554232653331684
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,8 +409,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4367554232515223052}
   m_HandleRect: {fileID: 4367554232515223053}
   m_Direction: 2
-  m_Value: 1.0000007
-  m_Size: 0.26988667
+  m_Value: 1.0000005
+  m_Size: 0.31955412
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
