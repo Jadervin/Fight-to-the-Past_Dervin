@@ -22,7 +22,7 @@ public class BulletScript : HitBoxScript
 
         timeAlive += Time.deltaTime;
 
-        if(timeAlive>despawnTime)
+        if(timeAlive > despawnTime)
         {
             Destroy(this.gameObject);
         }
