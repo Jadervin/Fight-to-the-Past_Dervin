@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  speed: 15
+  speed: 30
   despawnTime: 2
   explosionEffect: {fileID: 4855386457795861754, guid: b48466c4cbb5b6c44bc0fb436ddb1a1c, type: 3}
   soundSource: {fileID: 3804807173406267113}
